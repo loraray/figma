@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #E5E5E5;
+}
+img{
+    width: 100%;
+}
+a,a:hover{
+    text-decoration: none;
+    color:#000;
+}
+a, ul, li{
+    display: block;
+}
+#catalog{
+    position: relative;
+    background: #E5E5E5;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto ;
+}
+.row{
+    display: flex;
+
+}
+.row .catalog{
+    background: #fff;
+    width: 255px;
+    height: 363px;
+    margin: 67px 15px 0 15px ;
+    padding: 25px 30px;
+    position: relative;
+}
+.catalog:first-child{
+   margin-left: 0;
+}
+.catalog:last-child{
+    margin-right: 0;
+}
+.catalog .catalog-img{
+    margin: auto 35px;
+
+    width: 125px;
+    height: 166px;
+
+}
+.catalog h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+.catalog p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding-bottom: 20px;
+}
+.catalog .btn{
+    width: 130px;
+    background: #F13C6E;
+    border-radius: 30px;
+    text-align: center;
+    padding: 9px 39px;
+    margin: 0 33px;
+}
+.text{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+#comme-in{
+    padding-bottom: 100px;
+}
+#comme-in .block{
+    background: #F13C6E;
+    margin-right: 30px;
+    padding: 25px 40px;
+    width: 540px;
+    height: 212px;
+    display: flex;
+    justify-content: space-between;
+}
+#comme-in .block:last-child{
+    margin-right: 0;
+}
+.about-block h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF
+}
+.about-block p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 25px 0;
+}
+label input{
+    border-radius: 30px;
+    padding: 9px 25px 9px;
+    border: none;
+}
+.about-block .btn{
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 14px;
+    width: 170px;
+    color:#fff;
+    text-align: center;
+    padding: 9px auto;
+
+}
